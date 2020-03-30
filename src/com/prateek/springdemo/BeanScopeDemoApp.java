@@ -20,6 +20,9 @@ public class BeanScopeDemoApp {
 
 		// print out the results
 
+		// result will be false if bean scope is prototype, both bean will be stored at
+		// different memory location
+
 		System.out.println("\n Pointing to the same object: " + result);
 
 		System.out.println("\n Memory for coach: " + coach);
